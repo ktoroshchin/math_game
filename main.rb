@@ -2,4 +2,4 @@ require './game'
 
 game1 = Game.new
 
-game1.run
+game1.run_game
