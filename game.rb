@@ -20,7 +20,6 @@ class Game
           puts "#{@player1.name}: Seriously? NO!"
           @player1.lives -= 1
           if @player1.lives == 0
-            puts "You have 0 lives"
             puts "----GAME OVER----"
             @game_running = false
             return
@@ -42,7 +41,6 @@ class Game
           puts "#{@player2.name}: Seriously? NO!"
           @player2.lives -= 1
           if @player2.lives == 0
-            puts "You have 0 lives"
             puts "----GAME OVER----"
             @game_running = false
             return
