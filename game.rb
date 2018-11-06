@@ -1,8 +1,8 @@
 require './player'
 class Game
   def initialize
-    @player1 = Player.new("Konstantin")
-    @player2 = Player.new("Alex")
+    @player1 = Player.new("KONSTANTIN")
+    @player2 = Player.new("ALEX")
     @game_running = true
     @player = true
   end
